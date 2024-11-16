@@ -1,5 +1,4 @@
 :set ignorecase "ignore case sensitivity while searching
-:colorscheme wildcharm "also like industry, ron, elflord
 :set hlsearch "keeps found searched words highlighted
 :set autoindent "new line will keep indent from prev line
 :set number "enables line numbers
@@ -11,4 +10,10 @@
 call plug#begin()
 "List plugins here with Plug command
 Plug 'scrooloose/syntastic'
+Plug 'morhetz/gruvbox'
+Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
+
+"Colorscheme settings
+:let g:gruvbox_contrast_dark = 'hard' "Changes contrast for gruvbox to be darker
+:colorscheme gruvbox "also like industry, ron, wildcharm, dracula
