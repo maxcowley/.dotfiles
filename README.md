@@ -4,7 +4,7 @@
 
 1. Clone this git repo into `$HOME` folder
 2. `cd` into new local copy of repo
-3. Run `stow .` This will create all required symbolic links into `$HOME` folder.
+3. Run `stow .` This will create all required symbolic links in `$HOME` folder.
 
 ## Additional items to install
 

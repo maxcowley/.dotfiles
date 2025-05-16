@@ -3,6 +3,8 @@
 :set autoindent "new line will keep indent from prev line
 :set number "enables line numbers
 :set background=dark "dark mode
+:set cursorline "enables highlighted line
+:set cursorlineopt=number "sets so only the line number is highlighted from :set cursorline above
 :let &t_SI = "\e[5 q" "set cursor in normal mode to blinking block
 :let &t_EI = "\e[1 q" "set cursor in insert mode to blinking bar/line
 
