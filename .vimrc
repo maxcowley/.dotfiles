@@ -13,9 +13,10 @@ call plug#begin()
 "List plugins here with Plug command
 Plug 'scrooloose/syntastic'
 Plug 'morhetz/gruvbox'
-Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'fenetikm/falcon'
 call plug#end()
 
 "Colorscheme settings
 :let g:gruvbox_contrast_dark = 'hard' "Changes contrast for gruvbox to be darker
-:colorscheme gruvbox "also like industry, ron, wildcharm, dracula
+:colorscheme quiet "also like industry, ron, wildcharm, dracula, gruvbox
