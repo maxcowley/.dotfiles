@@ -30,4 +30,9 @@ Syntastic - Syntax highlighting and error checking
 
 ### Vim
 ### Tmux
-### Stow
+### Stow - dotfiles symlink manager
+### Hyprland WM
+### Hyprlock lockscreen
+### Hyprpaper wallpaper
+### nnn - TUI file manager
+### kitty - terminal emulator
