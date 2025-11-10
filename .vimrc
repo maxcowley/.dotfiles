@@ -10,10 +10,15 @@
 :let &t_SI = "\e[5 q" "set cursor in normal mode to blinking block
 :let &t_EI = "\e[1 q" "set cursor in insert mode to blinking bar/line
 
+"Disables x, X, and delete from overriding clipboard contents
+noremap x "_x
+noremap X "_x
+noremap <Del> "_x
+
 "Vim-Plug plugin manager
 call plug#begin()
 "List plugins here with Plug command
-Plug 'scrooloose/syntastic'
+Plug 'dense-analysis/ale'
 Plug 'morhetz/gruvbox'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'fenetikm/falcon'
